@@ -3,39 +3,70 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-03-20T01:02:00.674Z",
+        "start_timestamp": "2021-03-20T14:46:30.199Z",
+        "before": [
+          {
+            "result": {
+              "duration": 233405,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
         "line": 5,
         "name": "Valid  login",
         "description": "",
         "id": "login;valid--login",
+        "after": [
+          {
+            "result": {
+              "duration": 4037,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 23275,
+              "status": "skipped"
             },
             "line": 6,
             "name": "I enter valid username and valid password",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.i_enter_valid_usename_and_valid_password()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5461,
+              "status": "skipped"
             },
             "line": 7,
             "name": "I click on login button",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.i_click_on_login_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 4353,
+              "status": "skipped"
             },
             "line": 8,
             "name": "I succesfully logged in",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.i_succesfully_logged_in()"
+            },
             "keyword": "Then "
           }
         ],
@@ -52,39 +83,70 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-20T01:02:00.681Z",
+        "start_timestamp": "2021-03-20T14:46:30.204Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6604,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
         "line": 11,
         "name": "Invalid Login",
         "description": "",
         "id": "login;invalid-login",
+        "after": [
+          {
+            "result": {
+              "duration": 5530,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 6535,
+              "status": "skipped"
             },
             "line": 12,
             "name": "I enter valid username and invalid password",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.i_enter_valid_username_and_invalid_password()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 6476,
+              "status": "skipped"
             },
             "line": 13,
             "name": "I click on login button",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.i_click_on_login_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 6304,
+              "status": "skipped"
             },
             "line": 14,
             "name": "I see error message",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.i_see_error_message()"
+            },
             "keyword": "Then "
           }
         ],

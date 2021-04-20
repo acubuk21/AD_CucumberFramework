@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="src/test/resources/features"
-		,glue="com/hrms/steps"
+		,glue="com/AD/steps"
 		,dryRun=false
 		,plugin= {"pretty", "html:target/html/cucumber-default-report"}
 		,monochrome=true

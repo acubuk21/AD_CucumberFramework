@@ -1,7 +1,5 @@
 package com.AD.steps;
 
-
-
 import org.junit.Assert;
 
 import com.AD.testbase.BaseClass;

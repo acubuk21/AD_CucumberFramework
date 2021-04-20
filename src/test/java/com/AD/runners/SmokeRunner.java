@@ -1,7 +1,5 @@
 package com.AD.runners;
 
-
-
 import org.junit.runner.RunWith;
 
 import cucumber.api.CucumberOptions;
@@ -10,16 +8,12 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="src/test/resources/features"
-		,glue="com/hrms/steps"
+		,glue="com/AD/steps"
 		,dryRun=false
-		,plugin= {	"pretty", 
-					"html:target/html/cucumber-default-report", 
-					"json:target/cucumber.json", 
-					"rerun:target/failed.txt"}
+		,plugin= {"pretty"}
 		,monochrome=true
-		,tags= {"@smoke"}
+		,tags= "@smoke"
 		)
-
 
 public class SmokeRunner {
 
