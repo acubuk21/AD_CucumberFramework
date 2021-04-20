@@ -10,7 +10,11 @@ import cucumber.api.junit.Cucumber;
 		features="src/test/resources/features"
 		,glue="com/AD/steps"
 		,dryRun=false
+<<<<<<< HEAD
 		,plugin= {"pretty"}
+=======
+		,plugin= {	"pretty"}
+>>>>>>> 4e0bf45af7ddacabde47e85900c2433343813790
 		,monochrome=true
 		,tags= "@smoke"
 		)

@@ -3,6 +3,7 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2021-03-20T14:46:30.199Z",
         "before": [
           {
@@ -15,6 +16,9 @@
             }
           }
         ],
+=======
+        "start_timestamp": "2021-03-20T02:24:53.166Z",
+>>>>>>> 4e0bf45af7ddacabde47e85900c2433343813790
         "line": 5,
         "name": "Valid  login",
         "description": "",
@@ -83,6 +87,7 @@
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2021-03-20T14:46:30.204Z",
         "before": [
           {
@@ -95,6 +100,9 @@
             }
           }
         ],
+=======
+        "start_timestamp": "2021-03-20T02:24:53.172Z",
+>>>>>>> 4e0bf45af7ddacabde47e85900c2433343813790
         "line": 11,
         "name": "Invalid Login",
         "description": "",
