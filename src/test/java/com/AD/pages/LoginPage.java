@@ -15,5 +15,8 @@ public class LoginPage extends BaseClass{
 	
 	public WebElement  syntaxLogo=driver.findElement(By.xpath("//*[@id=\"divLogo\"]/img"));
 	
+	
+	// hey gundi
+	
     
 }
