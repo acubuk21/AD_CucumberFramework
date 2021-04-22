@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Login.feature");
 formatter.feature({
   "name": "Login",
@@ -61,3 +62,5 @@ formatter.after({
   "status": "failed"
 });
 });
+=======
+>>>>>>> 7f7024d776726b01f8ce2492883d162469da5fb0
