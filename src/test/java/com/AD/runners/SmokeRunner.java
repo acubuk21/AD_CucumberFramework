@@ -12,17 +12,7 @@ import cucumber.api.junit.Cucumber;
 		,dryRun=false
 
 		,plugin= {"pretty"}
-<<<<<<< HEAD
 
-=======
-=======
-		,plugin= {	"pretty"}
-<<<<<<< HEAD
->>>>>>> 4e0bf45af7ddacabde47e85900c2433343813790
-=======
->>>>>>> 7f7024d776726b01f8ce2492883d162469da5fb0
->>>>>>> 9ce70e256405b2a6b4a49cb06d915504f8a75cc5
->>>>>>> b1
 		,monochrome=true
 		,tags= "@smoke"
 		)
