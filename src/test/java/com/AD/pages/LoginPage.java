@@ -17,5 +17,6 @@ public class LoginPage extends BaseClass{
 	
 	// Davut otur ders calis ki unutmayasin gundi!
 	//hadi 1-2, 1-2 mars mars
+	// This is from branch b1, parctice for merging
     
 }
